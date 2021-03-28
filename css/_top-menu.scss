@@ -1,0 +1,28 @@
+.submenu{
+  padding: 15px 0;
+}
+.submenu__row{
+  display: flex;
+}
+.submenu__link{
+  display: inline-block;
+  font-size: 10px;
+  line-height: 13px;
+  color: $bg-primary;
+  padding: 3px;
+  border-radius: 3px;
+  &:focus{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+  &:hover{
+    color: $selected-color-txt;
+  }
+  &::after{
+    content: "\2044";
+    margin-left: 6px;
+    font-size: 13px;
+  }
+  // &:last-child::after{
+  //     content: "";
+  //   }
+}
