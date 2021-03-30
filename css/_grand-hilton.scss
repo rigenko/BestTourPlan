@@ -1,0 +1,72 @@
+.grand-hilton-top{
+  padding: 24px 0 20px 0;
+}
+.grand-hilton-rating{
+  position: relative;
+}
+.title-bock{
+  @include mx-title-h3;
+}
+.main-btn{
+  position: absolute;
+  top: calc(50% - 10px);
+  right: 92px;
+  font-size: 10px;
+  line-height: 13px;
+  @include mxn-main-btn;
+}
+.text{
+  @include mx-main-txt;
+  color: $primary-color-txt;
+}
+.grand-hilton--flex{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.user-rattings{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 7px;
+  background-color: $bg-secondary;
+  border-radius: 4px;
+  color: $secondary-color-txt;
+  text-align: center;
+}
+.user-rattings__name{
+  font-weight: 700;
+  font-size: 8px;
+  line-height: 10px;
+}
+.user-rattings__number{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  &::after{
+    content: "/";
+  }
+}
+.user-rattings__fraction{
+  font-weight: 700;
+  font-size: 10px;
+}
+.star-rating{
+  direction: rtl;
+}
+.star-rating__input{
+  display: none;
+}
+.fa-lg{
+  font-size: 6px !important;
+}
+.star-rating__ico,
+.star-rating__ico,
+.star-rating__input{
+  &:hover:before,
+  &:hover ~ .b-star-rating__ico:before,
+  &:checked ~ .star-rating__ico:before{
+    content: "\f005";
+    color: #F2994A;
+  }
+}

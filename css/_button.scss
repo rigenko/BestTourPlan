@@ -1,0 +1,20 @@
+@mixin mxn-main-form__btn {
+  padding: 0 24px;
+  background-color: $selected-color-txt;
+  border-radius: 0 6px 6px 0;
+  &:focus{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+  &:hover{
+    background-color: #d0042b;
+  }
+  &:active{
+    background-color: $primary-color-txt;
+  }
+}
+@mixin mxn-main-btn{
+  padding: 4px 9px;
+  background-color: $bg-secondary;
+  border-radius: 3px;
+  color: $secondary-color-txt;
+}

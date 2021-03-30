@@ -1,8 +1,42 @@
+.top-menu{
+  background-color: $bg-primary;
+  padding: 26px 0;
+}
+.top-menu-navigation__row{
+  display: flex;
+  justify-content: space-between;
+}
+.top-menu-navigation__link{
+  display: inline-block;
+  padding: 5px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: $secondary-color-txt;
+  &:focus{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+  &:hover{
+    color: $selected-color-txt;
+  }
+
+}
 .submenu{
   padding: 15px 0;
 }
 .submenu__row{
   display: flex;
+}
+.submenu__element{
+  &::after{
+    content: "\2044";
+    font-size: 10px;
+  }
+  &:last-child::after{
+    display: none;
+  }
 }
 .submenu__link{
   display: inline-block;
@@ -17,12 +51,5 @@
   &:hover{
     color: $selected-color-txt;
   }
-  &::after{
-    content: "\2044";
-    margin-left: 6px;
-    font-size: 13px;
-  }
-  // &:last-child::after{
-  //     content: "";
-  //   }
+  
 }

@@ -59,18 +59,7 @@
   
 }
 .main-header-form__btn{
-  padding: 0 24px;
-  background-color: $selected-color-txt;
-  border-radius: 0 6px 6px 0;
-  &:focus{
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-  }
-  &:hover{
-    background-color: #d0042b;
-  }
-  &:active{
-    background-color: $primary-color-txt;
-  }
+  @include mxn-main-form__btn;
 }
 .icon-header-search{
   font-size: 16px;
@@ -108,55 +97,27 @@
   max-width: 40px;
   width: 100px;
   border-radius: 50%;
-
-}
-.main-header-cart-form{
-  position: relative;
-}
-.main-header-cart-form__select{
-  appearance: none;
-  width: 95px;
-  margin-left: 18px;
-  padding: 5px;
-  border-radius: 5px;
-  font-size: 14px;
-  line-height: 18px;
-  &:focus{
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-  }
-  
 }
 .icon-header-arrow-down{
-  position: absolute;
   font-size: 8px;
   top: calc(50% - 4px);
   right: 5px;
-
 }
-.top-menu{
-  background-color: $bg-primary;
-  padding: 26px 0;
-}
-.top-menu-navigation__row{
+.main-header-cart-btn{
+  max-width: 160px;
+  width: 100%;
+  background-color: $bg-block;
+  border-radius: 5px;
   display: flex;
   justify-content: space-between;
-}
-.top-menu-navigation__link{
-  display: inline-block;
-  padding: 5px;
-  border-radius: 5px;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 18px;
-  color: $secondary-color-txt;
+  align-items: center;
   &:focus{
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
   }
-  &:hover{
-    color: $selected-color-txt;
-  }
-
 }
+.main-header-cart__name{
+  display: inline-block;
+}
+
 
 
