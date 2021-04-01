@@ -1632,7 +1632,8 @@ li {
   list-style-type: none;
 }
 
-ul {
+ul,
+p {
   padding: 0;
   margin: 0;
 }
@@ -1647,6 +1648,10 @@ select {
 
 input {
   cursor: pointer;
+}
+
+img {
+  width: 100%;
 }
 
 @font-face {
@@ -2055,6 +2060,19 @@ input {
   color: #fff;
 }
 
+.main-btn:focus {
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.main-btn:hover {
+  background-color: #d0042b;
+}
+
+.main-btn:active {
+  background-color: #333333;
+}
+
 .text {
   font-size: 12px;
   line-height: 15px;
@@ -2135,5 +2153,110 @@ input {
 .star-rating__input:checked ~ .star-rating__ico:before {
   content: "\f005";
   color: #F2994A;
+}
+
+.grand-hilton-main-prais {
+  background: #0a223d;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.grand-hilton-main-prais__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.grand-hilton-main-prais__title {
+  font-size: 10px;
+  line-height: 14px;
+  color: #fff;
+}
+
+.grand-hilton-main-prais__sum {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.grand-hilton-main-prais__txt {
+  font-size: 12px;
+  line-height: 15px;
+  color: #fff;
+}
+
+.grand-hilton-main-prais__content-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 12px;
+  line-height: 15px;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.grand-hilton-main-prais__content--widht,
+.grand-hilton-main-prais__content-flex--row {
+  max-width: 80px;
+  width: 100%;
+}
+
+.grand-hilton-main-prais__flex--config {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  color: #fff;
+  margin-top: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.grand-hilton-main-prais__content-flex--row {
+  margin: 0;
+  font-size: 18px;
+}
+
+.grand-hilton-main-prais-btn {
+  width: 100%;
+  padding: 13px 0;
+  background-color: #ec1f46;
+  border-radius: 4px;
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 17px;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.grand-hilton-main-prais-btn:focus {
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.grand-hilton-main-prais-btn:hover {
+  background-color: #d0042b;
+}
+
+.grand-hilton-main-prais-btn:active {
+  background-color: #333333;
+}
+
+.grand-hilton-main-maps {
+  margin-top: 27px;
+  border-radius: 10px;
+  overflow: hidden;
 }
 /*# sourceMappingURL=main.css.map */
