@@ -1,0 +1,21 @@
+.package-summery{
+  padding: 48px 0 50px 0;
+}
+.package-summery-tabs__row{
+  display: flex;
+  justify-content: space-between;
+}
+.package-summery-tabs__element{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: $primary-color-txt;
+  padding: 10px 15px;
+  &:focus{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+  &:hover{
+    color: $selected-color-txt;
+    border-bottom: 4px solid $selected-color-txt;
+  }
+}

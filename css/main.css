@@ -2259,4 +2259,35 @@ img {
   border-radius: 10px;
   overflow: hidden;
 }
+
+.package-summery {
+  padding: 48px 0 50px 0;
+}
+
+.package-summery-tabs__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.package-summery-tabs__element {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+  padding: 10px 15px;
+}
+
+.package-summery-tabs__element:focus {
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.package-summery-tabs__element:hover {
+  color: #ec1f46;
+  border-bottom: 4px solid #ec1f46;
+}
 /*# sourceMappingURL=main.css.map */
