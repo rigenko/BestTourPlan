@@ -16,6 +16,12 @@ a{
 li{
   list-style-type: none;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
 ul,
 p{
   padding: 0;
@@ -33,6 +39,33 @@ input{
 }
 img{
   width: 100%;
+}
+.bg-block{
+  background-color: $bg-block;
+}
+.pd-b-32{
+  padding-bottom: 32px;
+}
+.pd-t-16{
+  padding-top: 16px;
+}
+.pd-t-38{
+  padding-top: 38px;
+}
+.pd-b-16{
+  padding-bottom: 16px;
+}
+.pd-b-32{
+  padding-bottom: 32px;
+}
+.pd-b-58{
+  padding-bottom: 58px;
+}
+.pd-b-75{
+  padding-bottom: 75px;
+}
+.mg-t-32{
+  margin-top: 32px;
 }
 
 

@@ -19,3 +19,87 @@
     border-bottom: 4px solid $selected-color-txt;
   }
 }
+.package-summery-tabs__element--activ{
+  color: $selected-color-txt;
+    border-bottom: 4px solid $selected-color-txt;
+}
+.package-summery-title{
+  @include mx-title-h3;
+  color: $primary-color-txt;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+.package-summery-title__block{
+  @include mx-title-h6;
+  padding: 16px 10px 16px 24px;
+  background-color: $bg-primary;
+  border-radius: 8px 8px 0 0;
+  color: $secondary-color-txt;
+}
+.package-summery__element{
+  display: flex;
+  align-items: center;
+  margin-left: 26px;
+}
+.package-summery__element-icon{
+  max-width: 15px;
+  width: 100%;
+  height: 15px;
+  border-radius: 50%;
+  background-color: $primary-color-txt;
+  font-size: 8px;
+  color: $secondary-color-txt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+.package-summery__link{
+  @include mx-main-txt ;
+  padding: 12px 5px;
+  color: $primary-color-txt;
+}
+.package-summery__element--config{
+  align-items: flex-start;
+  padding-top: 12px;
+}
+.package-summery__txt{
+  max-width: 168px;
+  @include mx-main-txt;
+}
+.package-summery__element-upc{
+  text-transform: uppercase;
+}
+.package-summery__element-date{
+  display: inline-block;
+  font-size: 10px;
+  margin-top: 45px;
+}
+.package-summery__element-calendar{
+  @include mx-title-h6;
+  font-weight: normal;
+}
+.package-summery__element--mg{
+  margin: 12px 0 0 0;
+}
+.icon-calendar{
+  margin-right: 20px;
+}
+.package-summery__zag{
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  color: $selected-color-txt;
+  padding: 0 0 10px 26px;
+
+}
+.bg-block--mg{
+  margin-left: 0;
+  margin-right: 0;
+  
+}
+.br-rad{
+  border-radius: 0 0 8px 8px;
+}
+
+
