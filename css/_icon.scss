@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'icomoon';
-  src: url('../icon/icomoon.woff?fg140r') format('woff');
+  src: url('../icon/icomoon.woff?puiobi') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -21,6 +21,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-quotation-mark-1:before {
+  content: "\e90b";
+}
+.icon-quotation-mark-2:before {
+  content: "\e90d";
+}
 .icon-package-summery-icon:before {
   content: "\e90a";
 }
