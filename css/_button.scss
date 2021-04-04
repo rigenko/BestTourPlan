@@ -45,3 +45,18 @@
     background-color: $primary-color-txt;
   }
 }
+@mixin mxn-btn-other-packages{
+  padding: 11px 26px;
+  background-color: $bg-secondary;
+  border-radius: 4px;
+  color: $secondary-color-txt;
+  &:focus{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+  &:hover{
+    background-color: #d0042b;
+  }
+  &:active{
+    background-color: $primary-color-txt;
+  }
+}
