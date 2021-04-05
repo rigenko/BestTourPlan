@@ -37,33 +37,8 @@
   background-color: $bg-block;
   padding: 40px 0;
 }
-.main-header-form{
-  max-width: 350px;
-  height: 40px;
-  display: flex;
-}
-.main-header-form__imput{
-  width: 100%;
-  background-color: $primary-bg-bogy;
-  border-radius: 6px 0 0 6px;
-  padding: 0 22px;
-  font-size: 12px;
-  &::placeholder{
-    font-size: 12px;
-    line-height: 15px;
-    color: $primary-color-txt;
-  }
-  &:focus{
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-  }
-  
-}
-.main-header-form__btn{
-  @include mxn-main-form__btn;
-}
-.icon-header-search{
-  font-size: 16px;
-  color: $secondary-color-txt;
+.main-header-form-block{
+  @include main-hed-form;
 }
 .main-header-cart{
   display: flex;

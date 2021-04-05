@@ -1,0 +1,38 @@
+.other-activities{
+  padding: 60px 0 98px 0;
+}
+.other-activities-title{
+  @include mx-title-h3;
+  color: #000;
+  margin-bottom: 57px;
+}
+.other-activities-block{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: start;
+  height: 255px;
+  background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%);
+  border-radius: 6px;
+  padding: 0 30px 24px 27px;
+  position: relative;
+}
+.other-activities-img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  overflow: hidden;
+}
+.other-activities__title{
+  @include mx-title-h5;
+  color: $secondary-color-txt;
+  margin-bottom: 18px;
+}
+.other-activities-btn{
+  @include mxn-btn-other-activities;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: $secondary-color-txt;
+}

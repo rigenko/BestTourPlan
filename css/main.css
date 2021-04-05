@@ -1683,6 +1683,15 @@ img {
           flex-direction: column;
 }
 
+.flex-bx-centr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .pd-b-32 {
   padding-bottom: 32px;
 }
@@ -1885,7 +1894,7 @@ img {
   padding: 40px 0;
 }
 
-.main-header-form {
+.main-header-form-block .main-header-form {
   max-width: 350px;
   height: 40px;
   display: -webkit-box;
@@ -1893,63 +1902,63 @@ img {
   display: flex;
 }
 
-.main-header-form__imput {
+.main-header-form-block .main-header-form__imput {
   width: 100%;
   background-color: #f5fafe;
   border-radius: 6px 0 0 6px;
-  padding: 0 22px;
+  padding: 0 33px;
   font-size: 12px;
 }
 
-.main-header-form__imput::-webkit-input-placeholder {
-  font-size: 12px;
-  line-height: 15px;
+.main-header-form-block .main-header-form__imput::-webkit-input-placeholder {
+  font-size: 14px;
+  line-height: 18px;
   color: #333333;
 }
 
-.main-header-form__imput:-ms-input-placeholder {
-  font-size: 12px;
-  line-height: 15px;
+.main-header-form-block .main-header-form__imput:-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 18px;
   color: #333333;
 }
 
-.main-header-form__imput::-ms-input-placeholder {
-  font-size: 12px;
-  line-height: 15px;
+.main-header-form-block .main-header-form__imput::-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 18px;
   color: #333333;
 }
 
-.main-header-form__imput::placeholder {
-  font-size: 12px;
-  line-height: 15px;
+.main-header-form-block .main-header-form__imput::placeholder {
+  font-size: 14px;
+  line-height: 18px;
   color: #333333;
 }
 
-.main-header-form__imput:focus {
+.main-header-form-block .main-header-form__imput:focus {
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.main-header-form__btn {
+.main-header-form-block .main-header-form__btn {
   padding: 0 24px;
   background-color: #ec1f46;
   border-radius: 0 6px 6px 0;
 }
 
-.main-header-form__btn:focus {
+.main-header-form-block .main-header-form__btn:focus {
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.main-header-form__btn:hover {
+.main-header-form-block .main-header-form__btn:hover {
   background-color: #d0042b;
 }
 
-.main-header-form__btn:active {
+.main-header-form-block .main-header-form__btn:active {
   background-color: #333333;
 }
 
-.icon-header-search {
+.main-header-form-block .icon-header-search {
   font-size: 16px;
   color: #fff;
 }
@@ -2704,5 +2713,170 @@ img {
   opacity: 0.4;
   top: 119px;
   right: 60px;
+}
+
+.subscribe {
+  padding: 98px 0 87px 0;
+  background-color: #0a223d;
+}
+
+.subscribe-title {
+  font-size: 24px;
+  line-height: 30px;
+  color: #fff;
+}
+
+.subscribe-subtitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.subscribe-form-block {
+  margin-top: 15px;
+}
+
+.subscribe-form-block .subscribe-form {
+  width: 100%;
+  height: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.subscribe-form-block .subscribe-form__imput {
+  width: 100%;
+  background-color: #f5fafe;
+  border-radius: 4px 0 0 4px;
+  padding: 0 22px;
+  font-size: 12px;
+}
+
+.subscribe-form-block .subscribe-form__imput::-webkit-input-placeholder {
+  font-size: 12px;
+  line-height: 15px;
+  color: #bdbdbd;
+}
+
+.subscribe-form-block .subscribe-form__imput:-ms-input-placeholder {
+  font-size: 12px;
+  line-height: 15px;
+  color: #bdbdbd;
+}
+
+.subscribe-form-block .subscribe-form__imput::-ms-input-placeholder {
+  font-size: 12px;
+  line-height: 15px;
+  color: #bdbdbd;
+}
+
+.subscribe-form-block .subscribe-form__imput::placeholder {
+  font-size: 12px;
+  line-height: 15px;
+  color: #bdbdbd;
+}
+
+.subscribe-form-block .subscribe-form__imput:focus {
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.subscribe-form-block .subscribe-form__btn {
+  padding: 0 24px;
+  background-color: #ec1f46;
+  border-radius: 0 6px 6px 0;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #fff;
+}
+
+.subscribe-form-block .subscribe-form__btn:focus {
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.subscribe-form-block .subscribe-form__btn:hover {
+  background-color: #d0042b;
+}
+
+.subscribe-form-block .subscribe-form__btn:active {
+  background-color: #333333;
+}
+
+.other-activities {
+  padding: 60px 0 98px 0;
+}
+
+.other-activities-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #000;
+  margin-bottom: 57px;
+}
+
+.other-activities-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  height: 255px;
+  background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%);
+  border-radius: 6px;
+  padding: 0 30px 24px 27px;
+  position: relative;
+}
+
+.other-activities-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.other-activities__title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  margin-bottom: 18px;
+}
+
+.other-activities-btn {
+  padding: 7px 22px;
+  background-color: #ec1f46;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #fff;
+}
+
+.other-activities-btn:focus {
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.other-activities-btn:hover {
+  background-color: #d0042b;
+}
+
+.other-activities-btn:active {
+  background-color: #333333;
 }
 /*# sourceMappingURL=main.css.map */
